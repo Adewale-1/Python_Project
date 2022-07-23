@@ -45,7 +45,7 @@ while alteration:
 	
 	
 	
-	restart=input( "Type 'yes' if you want to go again. Otherwise type 'no'\n").lower
+	restart=input( "Type 'yes' if you want to go again. Otherwise type 'no'\n").lower()
 	if restart=="no":
 		alteration= False
 		print("Goodbye")
